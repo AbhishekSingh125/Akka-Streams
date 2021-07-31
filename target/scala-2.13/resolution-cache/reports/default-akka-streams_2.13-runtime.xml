@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="akka-streams_2.13"
+		revision="0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20210729152431"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.13.6" status="release" pubdate="20210517052511" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.6/scala-reflect/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2859" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-refspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-wordspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalactic" name="scalactic_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-funspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-featurespec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-flatspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-freespec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-diagrams_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-mustmatchers_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-funsuite_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-propspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-shouldmatchers_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-matchers-core_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3769997" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031037" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4994" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.9/scalatest_2.13-3.2.9.pom"/>
+				<caller organisation="default" name="akka-streams_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatest_2.13" type="bundle" ext="jar" status="no" details="" size="718" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest_2.13/bundles/scalatest_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.9/scalatest_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-mustmatchers_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031440" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3166" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-mustmatchers_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.9/scalatest-mustmatchers_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-mustmatchers_2.13" type="bundle" ext="jar" status="no" details="" size="185211" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-mustmatchers_2.13/bundles/scalatest-mustmatchers_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.9/scalatest-mustmatchers_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-shouldmatchers_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031355" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3172" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-shouldmatchers_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.9/scalatest-shouldmatchers_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-shouldmatchers_2.13" type="bundle" ext="jar" status="no" details="" size="185660" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-shouldmatchers_2.13/bundles/scalatest-shouldmatchers_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.9/scalatest-shouldmatchers_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-matchers-core_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031144" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3160" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-matchers-core_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.9/scalatest-matchers-core_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-mustmatchers_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-shouldmatchers_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-matchers-core_2.13" type="bundle" ext="jar" status="no" details="" size="2032797" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-matchers-core_2.13/bundles/scalatest-matchers-core_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.9/scalatest-matchers-core_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-diagrams_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031013" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3145" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-diagrams_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.9/scalatest-diagrams_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-diagrams_2.13" type="bundle" ext="jar" status="no" details="" size="52212" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-diagrams_2.13/bundles/scalatest-diagrams_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.9/scalatest-diagrams_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-wordspec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031249" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3145" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-wordspec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.9/scalatest-wordspec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-wordspec_2.13" type="bundle" ext="jar" status="no" details="" size="135279" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-wordspec_2.13/bundles/scalatest-wordspec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.9/scalatest-wordspec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-refspec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3142" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-refspec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.9/scalatest-refspec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-refspec_2.13" type="bundle" ext="jar" status="no" details="" size="26630" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-refspec_2.13/bundles/scalatest-refspec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.9/scalatest-refspec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-propspec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031356" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3145" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-propspec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.9/scalatest-propspec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-propspec_2.13" type="bundle" ext="jar" status="no" details="" size="34639" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-propspec_2.13/bundles/scalatest-propspec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.9/scalatest-propspec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-funspec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514030957" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3142" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-funspec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.9/scalatest-funspec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-funspec_2.13" type="bundle" ext="jar" status="no" details="" size="110411" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-funspec_2.13/bundles/scalatest-funspec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.9/scalatest-funspec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-funsuite_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031210" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3145" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-funsuite_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.9/scalatest-funsuite_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-funsuite_2.13" type="bundle" ext="jar" status="no" details="" size="64465" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-funsuite_2.13/bundles/scalatest-funsuite_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.9/scalatest-funsuite_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-freespec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031320" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3145" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-freespec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.9/scalatest-freespec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-freespec_2.13" type="bundle" ext="jar" status="no" details="" size="103875" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-freespec_2.13/bundles/scalatest-freespec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.9/scalatest-freespec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-flatspec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031326" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3145" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-flatspec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.9/scalatest-flatspec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-flatspec_2.13" type="bundle" ext="jar" status="no" details="" size="177434" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-flatspec_2.13/bundles/scalatest-flatspec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.9/scalatest-flatspec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-featurespec_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031218" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3154" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-featurespec_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.9/scalatest-featurespec_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-featurespec_2.13" type="bundle" ext="jar" status="no" details="" size="81577" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-featurespec_2.13/bundles/scalatest-featurespec_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.9/scalatest-featurespec_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-core_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514031502" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4046" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-core_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.9/scalatest-core_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-refspec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-wordspec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-freespec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-diagrams_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-funspec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-funsuite_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-propspec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-featurespec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-flatspec_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-matchers-core_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-core_2.13" type="bundle" ext="jar" status="no" details="" size="3762412" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-core_2.13/bundles/scalatest-core_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.9/scalatest-core_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.13">
+			<revision name="1.3.0" status="release" pubdate="20200316141003" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="https://scala.github.io/scala-xml/api/1.3.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3429" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang.modules/scala-xml_2.13/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scala-xml_2.13" type="bundle" ext="jar" status="no" details="" size="571493" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang.modules/scala-xml_2.13/bundles/scala-xml_2.13-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.13">
+			<revision name="3.2.9" status="release" pubdate="20210514023215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/Roboto/.ivy2/cache/org.scalactic/scalactic_2.13/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.9/scalactic_2.13-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalactic_2.13" type="bundle" ext="jar" status="no" details="" size="1559468" time="0" location="/Users/Roboto/.ivy2/cache/org.scalactic/scalactic_2.13/bundles/scalactic_2.13-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.9/scalactic_2.13-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-compatible">
+			<revision name="3.2.9" status="release" pubdate="20210514031134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2511" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-compatible/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.9/scalatest-compatible-3.2.9.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scalatest-compatible" type="bundle" ext="jar" status="no" details="" size="1412" time="0" location="/Users/Roboto/.ivy2/cache/org.scalatest/scalatest-compatible/bundles/scalatest-compatible-3.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.9/scalatest-compatible-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.13">
+			<revision name="2.6.15" status="release" pubdate="20210610085532" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.15" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3597" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.13/ivy-2.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.13/2.6.15/akka-stream-testkit_2.13-2.6.15.pom"/>
+				<caller organisation="default" name="akka-streams_2.13" conf="compile, runtime" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-stream-testkit_2.13" type="jar" ext="jar" status="no" details="" size="128336" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.13/jars/akka-stream-testkit_2.13-2.6.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.13/2.6.15/akka-stream-testkit_2.13-2.6.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-persistence_2.13">
+			<revision name="2.6.15" status="release" pubdate="20210610085537" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.15" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4257" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-persistence_2.13/ivy-2.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.15/akka-persistence_2.13-2.6.15.pom"/>
+				<caller organisation="default" name="akka-streams_2.13" conf="compile, runtime" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-persistence_2.13" type="jar" ext="jar" status="no" details="" size="950149" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-persistence_2.13/jars/akka-persistence_2.13-2.6.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.15/akka-persistence_2.13-2.6.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.13">
+			<revision name="2.6.15" status="release" pubdate="20210610085538" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.15" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3801" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-testkit_2.13/ivy-2.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.15/akka-testkit_2.13-2.6.15.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.13" conf="default, compile, runtime, master" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.13" type="jar" ext="jar" status="no" details="" size="261448" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-testkit_2.13/jars/akka-testkit_2.13-2.6.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.15/akka-testkit_2.13-2.6.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.13">
+			<revision name="2.6.15" status="release" pubdate="20210610085542" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.15" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3647" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-stream_2.13/ivy-2.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.15/akka-stream_2.13-2.6.15.pom"/>
+				<caller organisation="default" name="akka-streams_2.13" conf="compile, runtime" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-persistence_2.13" conf="default, compile, runtime, master" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.13" conf="default, compile, runtime, master" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="akka-stream_2.13" type="jar" ext="jar" status="no" details="" size="4773552" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-stream_2.13/jars/akka-stream_2.13-2.6.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.15/akka-stream_2.13-2.6.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.13">
+			<revision name="0.4.2" status="release" pubdate="20200221085803" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3716" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe/ssl-config-core_2.13/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="compile, runtime" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.13" type="bundle" ext="jar" status="no" details="" size="302642" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe/ssl-config-core_2.13/bundles/ssl-config-core_2.13-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.13">
+			<revision name="1.1.2" status="release" pubdate="20190607143535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.13" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.13" type="bundle" ext="jar" status="no" details="" size="225338" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/bundles/scala-parser-combinators_2.13-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.3" status="release" pubdate="20190823045010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/Roboto/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="11369" time="0" location="/Users/Roboto/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf-v3_2.13">
+			<revision name="2.6.15" status="release" pubdate="20210610085538" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.15" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2759" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.13/ivy-2.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.15/akka-protobuf-v3_2.13-2.6.15.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="compile, runtime" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="akka-protobuf-v3_2.13" type="jar" ext="jar" status="no" details="" size="1665453" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.13/jars/akka-protobuf-v3_2.13-2.6.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.15/akka-protobuf-v3_2.13-2.6.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.13">
+			<revision name="2.6.15" status="release" pubdate="20210610085533" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.15" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3208" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/ivy-2.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-persistence_2.13" conf="default, compile, runtime, master" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="compile, runtime" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.13" conf="compile, runtime" rev="2.6.15" rev-constraint-default="2.6.15" rev-constraint-dynamic="2.6.15" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="akka-actor_2.13" type="jar" ext="jar" status="no" details="" size="3674456" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.6.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.13">
+			<revision name="0.9.0" status="release" pubdate="20190608085219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3031" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="2.6.15"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.13" type="jar" ext="jar" status="no" details="" size="640411" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.4.0" status="release" pubdate="20191012032341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3138" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe/config/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.6.15"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.13" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="294174" time="0" location="/Users/Roboto/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.6" status="release" pubdate="20210517052610" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-refspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-wordspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalactic" name="scalactic_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="0.9.0"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="default" name="akka-streams_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-persistence_2.13" conf="default, compile, runtime, master" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="2.6.15"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="0.4.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="1.3.0"/>
+				<caller organisation="org.scalatest" name="scalatest-featurespec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="1.1.2"/>
+				<caller organisation="org.scalatest" name="scalatest-freespec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-propspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-shouldmatchers_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="2.6.15"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="2.6.15"/>
+				<caller organisation="org.scalatest" name="scalatest-funspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="2.6.15"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="2.13.6"/>
+				<caller organisation="org.scalatest" name="scalatest-flatspec_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-diagrams_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-mustmatchers_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="org.scalatest" name="scalatest-funsuite_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.13" conf="default, compile, runtime, master" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="2.6.15"/>
+				<caller organisation="org.scalatest" name="scalatest-matchers-core_2.13" conf="compile, runtime" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="3.2.9"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5955737" time="0" location="/Users/Roboto/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
